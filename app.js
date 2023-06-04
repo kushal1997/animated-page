@@ -22,7 +22,7 @@ function autoType(elementClass, typingSpeed){
           },i*typingSpeed);
         })(i+1,text[i]);
       }
-    },1500);
+    },1000);
   }
   
   $(document).ready(function(){
